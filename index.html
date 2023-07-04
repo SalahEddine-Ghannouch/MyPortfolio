@@ -2,34 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./images/me1.png">
+    <link rel="icon" type="image/x-icon" href="./images/home-img.png">
     <title> Portfolio | Salah Eddine Ghannouch</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-   
+
+<!-- custom cursors  -->
+<div class="cursor-1"></div>
+<div class="cursor-2"></div>
+
+
+<div id="menu-bars" class="fas fa-bars"></div>
+    
 <!-- header section starts  -->
 
 <header>
 
-    <div id="menu" class="fas fa-bars"></div>
+    <a href="#" class="logo"> <span>Salah Eddine</span> Ghannouch </a>
 
     <nav class="navbar">
         <a href="#home">home</a>
         <a href="#about">about</a>
-        <a href="#services">project</a>
-        <a href="#portfolio">portfolio</a>
+        <a href="#service"> Training</a>
+        <a href="#experience">experience</a>
+        <a href="#portfolio">project</a>
         <a href="#contact">contact</a>
     </nav>
 
-    <div id="theme-toggler" class="fas fa-moon"></div>
+    <div class="follow">
+        <a href="https://www.facebook.com/salaheddine.ghannouch" target="_blank" class="fab fa-facebook-f"></a>
+        <a href="https://github.com/SalahEddine-Ghannouch" target="_blank" class="fab fa-github"></a>
+        <a href="https://www.instagram.com/salah.eddine.gh/" target="_blank" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/salah-eddine-ghannouch-21300b221/" target="_blank" class="fab fa-linkedin"></a>
+    </div>
 
 </header>
 
@@ -39,175 +53,139 @@
 
 <section class="home" id="home">
 
-    <div class="image">
-        <img src="images/me1.png" alt="">
+    <div class="content">
+        <span class="hi"> hi there... </span>
+        <h3> i am <span> Salah Eddine Ghannouch </span> </h3>
+        <p class="info"></p>
+        <p class="text"> I'm 21 years old, Master's student specialized in Distributed Computing Systems & Big Data, within the Agadir Faculty of Sciences, Ibn Zohr University.</p>
+        <a href="#about" class="btn">about me</a>
     </div>
 
-    <div class="content">
-        <span class="hello"> hi there... </span>
-        <h3> i am <span> Salah Eddine Ghannouch </span> </h3>
-        <p style="text-transform: none;">I'm 21 years old, Master's student specialized in Distributed Computing Systems & Big Data, within the Agadir Faculty of Sciences, Ibn Zohr University.</p>
-        <a href="#about" class="btn">about me</a>
+    <div class="image">
+        <img src="images/home-img.png" style="border-radius: 1.5%;" alt="me_1">
     </div>
 
 </section>
 
 <!-- home section ends -->
 
+<!-- about section starts  -->
+
 <section class="about" id="about">
 
-    <h2 class="heading"> about <span>me</span> </h2>
+<h1 class="heading"> about <span> me </span> </h1>
 
-    <div class="row">
+<div class="row-1">
 
-        <div class="box">
-            <h3 class="title">coding skills</h3>
-            <div class="progress">
-                <h3> JAVA <span>90%</span> </h3>
-                <div class="bar"><span></span></div>
-            </div>
-            <div class="progress">
-                <h3> PYTHON <span>80%</span> </h3>
-                <div class="bar"><span></span></div>
-            </div>
-            <div class="progress">
-                <h3> JS <span>72%</span> </h3>
-                <div class="bar"><span></span></div>
-            </div>
-            <div class="progress">
-                <h3> PHP <span>75%</span> </h3>
-                <div class="bar"><span></span></div>
-            </div>
-        </div>
-
-        <div class="box">
-            <h3 class="title">professional skills</h3>
-            <div class="progress">
-                <h3>Développement full-stack<span>84%</span> </h3>
-                <div class="bar"><span></span></div>
-            </div>
-            <div class="progress">
-                <h3> web development <span>72%</span> </h3>
-                <div class="bar"><span></span></div>
-            </div>
-            <div class="progress">
-                <h3>Oracle Database <span>75%</span> </h3>
-                <div class="bar"><span></span></div>
-            </div>
-            <div class=" progress ">
-                <h3> computer vision  <span>70%</span> </h3>
-                <div class="bar"><span></span></div>
-            </div>
-        </div>
-
-        <div class="box">
-            <h3 class="title">experience</h3>
-            <div class="exp-box">
-                <h3 style="text-transform: none;">Stage Fin d’Etudes LP | avr-mai 2022  Hydroleader à Marrakech </h3>
-                <p style="text-transform: none;">Stage Fin d'Études au sein de la société Hydroleader à Marrakech ; Système d'administration de gestion des appels d’offres et marchés.</p>
-            </div>
-            <div class="exp-box">
-                <h3 style="text-transform: none;">Stage de fin d’études DUT | avr-mai 2021 · PMR d'eseignemant à Essaouira </h3>
-                <p style="text-transform: none;">Stage de fin d’études DUT ; Conception et réalisation d'une plateforme de gestion d’administration et bibliothèque.</p>
-            </div>
-            <div class="exp-box">
-                <h3 style="text-transform: none;">Stage d'initiation | août-sept 2020 · ESTE</h3>
-                <p style="text-transform: none;">Stage d'initiation au sein de l'ecole supérieur de technologie à Essaouira; 
-                    Réalisation d'un site web d’une société de vente les produits électroniques.</p>
-            </div>
-        </div>
-
-        <div class="box">
-            <h3 class="title">education</h3>
-            <div class="exp-box">
-                <h3 style="text-transform: none;">Licence professionnelle · 2021-2022</h3>
-                <p style="text-transform: none;">Licence professionnelle en Ingénieur des systèmes 
-                    informatique et logiciel à EST Essaouira<br><br><br>
-                </p>
-            </div>
-            <div class="exp-box">
-                <h3 style="text-transform: none;">Diplôme universitaire de technologie · 2019-2021</h3>
-                <p style="text-transform: none;">Diplôme universitaire de Technologie à EST Essaouira
-                    - Formation en filière Génie Informatique<br><br>
-                </p>
-            </div>
-            <div class="exp-box">
-                <h3 style="text-transform: none;">Diplôme de baccalauréat · 2018-2019</h3>
-                <p style="text-transform: none;">Baccalauréat au lycée Moulay Rachid province Essaouira de mention trés bien en sciences physiques.</p>
-           
-            </div>
-        </div>
-
+    <div class="image">
+        <img src="images/about-img.jpg" alt="">
     </div>
 
-    <div class="download">
-        <a target="_blank" href="images/Salah_Eddine Ghannouch_CV.pdf" class="btn"> download CV </a>
+    <div class="content">
+        <h3 style="text-transform: none;"> My name is Salah Eddine Ghannouch & I am a Master's student </h3>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi error molestias impedit officia! Exercitationem dignissimos esse eos quas nisi impedit delectus, voluptate ullam iste nostrum at. Dolor culpa eaque omnis.</p> -->
+        <div class="box-container">
+            <div class="box">
+                <p> <span> age : </span> 21 </p>
+                <p> <span> gender : </span> male </p>
+                <p> <span> language : </span> Arabic, French, english </p>
+            </div>
+            <div class="box">
+                <p> <span> phone : </span> +212691825363 </p>
+                <p style="text-transform: none;"> <span> email : </span> salahghannouch@gmail.com</p>
+                <p> <span> country : </span> Morocco </p>
+            </div>
+        </div>
+        <a href="./images/Salah_Eddine_Ghannouch_EN.pdf" target="_blank" class="btn">download CV</a>
     </div>
 
-</section>
+</div>
 
-<!-- service section starts  -->
+<h1 class="heading"> <span> my </span> skills </h1>
 
-<section class="services" id="services">
+<div class="row-2">
 
-    <h2 class="heading"> <span>my</span> PROJECT </h2>
+    <div class="skills">
+        <div class="progress">
+            <h3> JAVA <span> 92% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> PYTHON <span> 80% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> JS <span> 71% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> PHP <span> 85% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+    </div>
 
     <div class="box-container">
 
         <div class="box">
-            <span class="number">1</span>
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Stage-Initiation"> 
-            <img src="images/s1.png" alt="">
-             <h3 style="text-transform: none;">Stage d'initiation</h3>
-            <p style="text-transform: none;">Un Stage d'initiation dans l'école Supérieure de Technologie à Essaouira.<br>
-            </p>
-            </a>
+            <h3> >> 85% </h3>
+            <p>web development</p>
+        </div>
+        <div class="box">
+            <h3> >> 80% </h3>
+            <p>Database: (Oracle/MySql/PostgreSQL) </p>
+        </div>
+        <div class="box">
+            <h3> >> 82% </h3>
+            <p>Computer Vision : (Python / Matlab)</p>
+        </div>
+        <div class="box">
+            <h3> >> 75% </h3>
+            <p>Design Methodology : (UML/Merise/PowerAMC)</p>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- service section starts  -->
+
+<section class="service" id="service">
+
+<h1 class="heading"> <span> my </span> Academic Training </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>present - 2022 </h3>
+            <p>•Specialized Master in Distributed Computing Systems - Big Data, Ibn Zohr University.</p>
+
         </div>
 
         <div class="box">
-            <span class="number">2</span>
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Gestion-des-Restaurants-">  
-            <img src="images/s2.png" alt="">
-           <h3 style="text-transform: none;">Gestion d'un Restaurant JAVA  </h3>
-            <p  style="text-transform: none;">Une application de gestion d'un Restaurant avec java.</p>
-            </a>
+            <i class="fas fa-graduation-cap"></i>
+            <h3>2022 – 2021</h3>
+            <p style="text-transform: none;">•Professional License degree, EST
+                •Computer systems and software engineer - Highest honors.</p>
         </div>
 
         <div class="box">
-            <span class="number">3</span>
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Gestion-d-un-club-de-football">  
-            <img src="images/s3.png" alt="">
-            <h3 style="text-transform: none;">Gestion d'un club de football SQL</h3>
-            <p  style="text-transform: none;">Une application de gestion d'un club de football.</p>
-           </a>
+            <i class="fas fa-graduation-cap"></i>
+            <h3>2021 – 2019</h3>
+            <p style="text-transform: none;">•University Diploma in Technology DUT, EST
+                - Training in Computer Engineering.
+                </p>
         </div>
 
         <div class="box">
-            <span class="number">4</span>
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Gestion-d-une-librairie">  
-            <img src="images/s4.png" alt="">
-            <h3 style="text-transform: none;">Gestion d'une librairie C++</h3>
-            <p  style="text-transform: none;">Une application de gestion d'une librairie C++.<br><br><br><br></p>
-            </a>
-        </div>
-
-        <div class="box">
-            <span class="number">5</span>
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Gestion_Bibliotheque">  
-            <img src="images/s5.png" alt="">
-           <h3>Gestion d'une Bibliothéque App Web</h3>
-            <p  style="text-transform: none;">Une application web de gestion d'une Bibliothéque. <br></r><br></p>
-           </a>
-        </div>
-
-        <div class="box">
-            <span class="number">6</span>
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Projet-Fin-d-Etude">  
-            <img src="images/s6.png" alt="">
-           <h3>Gestion des statistiques Corona virus. </h3>
-            <p  style="text-transform: none;"> 
-                Application web de gestion des statistiques : exemple Corona virus.<br><br></p>
-            </a>
+            <i class="fas fa-graduation-cap"></i>
+            <h3>2019 – 2018</h3>
+            <p>•Baccalaureate, Prince Moulay Rachid High School
+                - physical science branch, honours.</p>
         </div>
 
     </div>
@@ -216,103 +194,160 @@
 
 <!-- service section ends -->
 
-<!-- portfolio section starts  -->
+<!-- experience section starts  -->
 
-<section class="portfolio" id="portfolio">
+<section class="experience" id="experience">
 
-    <h2 class="heading"> <span>my</span> portfolio </h2>
+    <h1 class="heading"> <span> my </span> experience </h1>
 
-    <div class="button-container">
-        <div class="btn" data-filter="all">all</div>
-        <div class="btn" data-filter="design">design</div>
-        <div class="btn" data-filter="code">App</div>
-        <div class="btn" data-filter="website">website</div>
-    </div>
+    <div class="box-container">
 
-    <div class="image-container">
-
-        <div class="box design">
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/simple-typing-game-">
-            <img src="images/img1.jpg" alt="">
-            <div class="info">
-                <h3>simple typing game</h3>
+        <div class="box">
+            <div class="content" style="text-transform: none;">
+                <span> 06/2022 – 07/2022 </span>
+                <h3 style="text-transform: none;font-size: 18px;">Summer Intern, Establishment of Dar Ettalib</h3>
+                <p>•Summer internship in the Dar Ettalib establishment.<br>
+                   •Skills: javaEE · Oracle Database · Spring Framework.
+                    </p>
+                    <br><br>
             </div>
-        </a>
         </div>
 
-        <div class="box design">
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/NavBar-Effects">
-            <img src="images/img2.jpg" alt="">
-            <div class="info">
-                <h3>NavBar Effects</h3>
-            </div>
-           </a>
+        <div class="box">
+            <div class="content">
+                <span> 04/2022 – 06/2022 </span>
+                <h3 style="text-transform: none;font-size: 18px;">
+                    End of studies internship, Hydroleader</h3>
+                <p>•Mission: Administration system for managing calls for tenders and
+                    contracts.<br>
+                    •Skills: Full-stack development Finance PostgreSQL</p>
+                </div>
         </div>
 
-        <div class="box design">
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Profil-Card">
-            <img src="images/img3.jpg" alt="">
-            <div class="info">
-                <h3>Profile Card</h3>
+        <div class="box">
+            <div class="content">
+                <span> 04/2021 – 06/2021 </span>
+                <h3 style="text-transform: none;font-size: 18px;">
+                    DUT End of Studies Internship, PMR in Essaouira</h3>
+                <p> •Mission: Administration and library
+                    management platform.<br>
+                    •Skills: Web technologies (JAVASCRIPT, PHP, JQUERY, SQL) : (GIT, GITHUB).<br>
+                    </p>
+                    
             </div>
-           </a>
         </div>
 
-        <div class="box code">
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Contact-Page">
-            <img src="images/img4.jpg" alt="">
-            <div class="info">
-                <h3>Contact page </h3>
+        <div class="box">
+            <div class="content">
+                <span> 08/2020 – 09/2020 </span>
+                <h3 style="text-transform: none;font-size: 18px;">
+                    Initiation internship, EST</h3>
+                <p> •Realization of a website for a company selling electronic products.<br>
+                    •Skills: HTML5 · CSS · jQuery · JavaScript</p>
+                    <br><br><br>
             </div>
-            </a>
-        </div>
-
-        <div class="box code">
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Countries-API">
-            <img src="images/img5.jpg" alt="">
-            <div class="info">
-                <h3>Countries API Page </h3>
-            </div>
-        </a>
-        </div>
-
-        <div class="box website">
-            <a target="_blank" href="https://github.com/SalahEddine-Ghannouch/Amina.Arts">
-            <img src="images/img6.jpg" alt="">
-            <div class="info">
-               <h3>  website of art <center></center></h3>
-            </div>
-             </a>
         </div>
 
     </div>
 
 </section>
 
+<!-- experience section ends -->
 
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span> my </span> project </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/uml.png" alt="">
+            <h3> UML Modeling App</h3>
+            <div class="icons">
+                <a href="https://github.com/SalahEddine-Ghannouch/UML_Modeling_To_JavaAndSql" class="fas fa-link" target="_blank"></a>
+                <!-- <a href="#" class="fas fa-share"></a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/deep.png" alt="">
+            <h3> Deep Learning Project </h3>
+            <div class="icons">
+                <a href="https://github.com/SalahEddine-Ghannouch/MorseCode_Translator_ToText" class="fas fa-link" target="_blank"></a>
+                <!-- <a href="#" class="fas fa-share"></a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/event.png" alt="">
+            <h3> Event Management </h3>
+            <div class="icons">
+                <a href="https://github.com/SalahEddine-Ghannouch/GetTicket_Events_Django" class="fas fa-link" target="_blank"></a>
+                <!-- <a href="#" class="fas fa-share"></a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/artwork.png" alt="">
+            <h3> artwork platform </h3>
+            <div class="icons">
+                <a href="https://github.com/SalahEddine-Ghannouch/Amina.Arts" class="fas fa-link" target="_blank"></a>
+                <!-- <a href="#" class="fas fa-share"></a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/book.png" alt="">
+            <h3> Library Management </h3>
+            <div class="icons">
+                <a href="https://github.com/SalahEddine-Ghannouch/Library_Management_System" class="fas fa-link" target="_blank"></a>
+                <!-- <a href="#" class="fas fa-share"></a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/covid.png" alt="">
+            <h3> COVID-19 Statistics App </h3>
+            <div class="icons">
+                <a href="https://github.com/SalahEddine-Ghannouch/COVID-19_Statistics_App" class="fas fa-link" target="_blank"></a>
+                <!-- <a href="#" class="fas fa-share"></a> -->
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
 
 <section class="contact" id="contact">
 
-    <h2 class="heading"> contact <span>me</span> </h2>
+    <h1 class="heading"> contact <span> me </span> </h1>
 
-    <div class="box-container">
-        
-        <div class="box">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>my email</h3>
+            <p style="text-transform: none;">salahghannouch@gmail.com</p>
+            <!-- <p>anasbhai@gmail.com</p> -->
+        </div>
+
+        <div class="icons">
             <i class="fas fa-phone"></i>
             <h3>my number</h3>
             <p>+212691825363</p>
+            <!-- <p>+111-222-3333</p> -->
         </div>
 
-        <div class="box">
-            <i class="fas fa-envelope"></i>
-            <h3>my email</h3>
-            <p>salahghannouch@gmail.com</p>
-        </div>
-
-        <div class="box">
+        <div class="icons">
             <i class="fas fa-map-marker-alt"></i>
             <h3>my address</h3>
-            <p>Essaouira, Morocco - 44250</p>
+            <p>Essaouira, marrakech Morocco - 44250</p>
         </div>
 
     </div>
@@ -320,62 +355,33 @@
     <div class="row">
 
         <form action="">
-            <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
-            </div>
-            <input type="text" placeholder="subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
-            <button class="btn"> send message </button>
+
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+
+            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" class="btn" value="send message">
+
         </form>
 
+        <!-- <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1625069635379!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe> -->
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7685.015056016974!2d-9.764084649917546!3d31.513602701742183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdad9a329ca5c58b%3A0x6a7bc5d722c15c08!2sBab%20Doukkala!5e0!3m2!1sen!2sma!4v1674675852163!5m2!1sen!2sma"  allowfullscreen="" loading="lazy" ></iframe>
+
     </div>
+
 
 </section>
 
 <!-- contact section ends -->
 
 <!-- footer section  -->
+<footer class="footer"> created by <span> Salah Eddine Ghannouch </span> &copy; all rights reserved. </footer>
 
-<div class="footer">
-    created by <span> Salah Eddine Ghannouch</span> | all rights reserved 2023.<br>
-
-    <div class="follow">
-        <a href="https://www.facebook.com/salaheddine.ghannouch" target="_blank" class="fab fa-facebook-f"></a>
-        <a href="https://github.com/SalahEddine-Ghannouch" target="_blank" class="fab fa-github"></a>
-        <a href="https://www.instagram.com/salah.eddine.gh/" target="_blank" class="fab fa-instagram"></a>
-        <a href="https://www.linkedin.com/in/salah-eddine-ghannouch-21300b221/" target="_blank" class="fab fa-linkedin"></a>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- custom js file link  -->
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
