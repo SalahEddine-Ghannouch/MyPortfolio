@@ -366,11 +366,11 @@
 
         <form action="">
 
-            <input type="text" placeholder="name" id="name" name="name" class="box">
-            <input type="email" placeholder="email" id="email" name="email" class="box">
-            <input type="text" placeholder="Suject" id="subject" name="subject" class="box">
+            <input type="text" placeholder="name" id="name" name="name" class="box" required>
+            <input type="email" placeholder="email" id="email" name="email" class="box" required>
+            <input type="text" placeholder="Suject" id="subject" name="subject" class="box" required>
 
-            <textarea name="" placeholder="message" id="message" name="message" cols="30" rows="10"></textarea>
+            <textarea name="" placeholder="message" id="message" name="message" cols="30" rows="10" required></textarea>
 
             <input onclick="sendmail()" type="submit" class="btn" value="send message">
 
