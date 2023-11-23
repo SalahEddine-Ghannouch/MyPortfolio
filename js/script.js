@@ -52,3 +52,28 @@ function incrementVisitsCount() {
 
     count.innerText = localStorage.getItem("visits");
 }
+
+
+
+/* Sending Email from Contact Section */
+(function () {
+    emailjs.init("dkGt5Ied211wgnKua");
+})();
+
+function sendmail() {
+    let fullName = document.getElementById("name").value;
+    let userEmail = document.getElementById("email").value;
+    let subject = document.getElementById("subject").value;
+    let userMessage = document.getElementById("message").value;
+
+        var contactParams = {
+            from_name: fullName,
+            email_id: userEmail,
+            message: userMessage,
+            subject_id: subject
+        };
+
+        emailjs.send('service_9mc11k4', 'template_uimy9g8', contactParams).then(function (res) {
+            alert('Success Message !');
+        })
+}
