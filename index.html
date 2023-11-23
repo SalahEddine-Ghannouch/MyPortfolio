@@ -13,6 +13,8 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+	<!-- Add EmailJS to Form-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 </head>
 <body>
 
@@ -364,11 +366,11 @@
 
         <form action="">
 
-            <input type="text" placeholder="name" id="name" class="box">
-            <input type="email" placeholder="email" id="email" class="box">
-            <input type="text" placeholder="Suject" id="subject" class="box">
+            <input type="text" placeholder="name" id="name" name="name" class="box">
+            <input type="email" placeholder="email" id="email" name="email" class="box">
+            <input type="text" placeholder="Suject" id="subject" name="subject" class="box">
 
-            <textarea name="" placeholder="message" id="message" cols="30" rows="10"></textarea>
+            <textarea name="" placeholder="message" id="message" name="message" cols="30" rows="10"></textarea>
 
             <input onclick="sendmail()" type="submit" class="btn" value="send message">
 
@@ -387,8 +389,7 @@
 <footer class="footer"> created by <span> Salah Eddine Ghannouch </span> &copy; all rights reserved.
 </footer>
 
-<!-- Add EmailJS to Form-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
