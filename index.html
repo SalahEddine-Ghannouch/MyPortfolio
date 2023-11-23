@@ -364,13 +364,13 @@
 
         <form action="">
 
-            <input type="text" placeholder="name" class="box">
-            <input type="email" placeholder="email" class="box">
-            <input type="text" placeholder="Suject" class="box">
+            <input type="text" placeholder="name" id="name" class="box">
+            <input type="email" placeholder="email" id="email" class="box">
+            <input type="text" placeholder="Suject" id="subject" class="box">
 
-            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <textarea name="" placeholder="message" id="message" cols="30" rows="10"></textarea>
 
-            <input type="submit" class="btn" value="send message">
+            <input onclick="sendmail()" type="submit" class="btn" value="send message">
 
         </form>
 
@@ -387,6 +387,8 @@
 <footer class="footer"> created by <span> Salah Eddine Ghannouch </span> &copy; all rights reserved.
 </footer>
 
+<!-- Add EmailJS to Form-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
