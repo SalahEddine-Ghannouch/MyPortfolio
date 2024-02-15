@@ -159,6 +159,11 @@ header .follow a:hover{
     gap:1.5rem;
 }
 
+
+#home{
+    min-height: 80vh;
+}
+
 .home .image{
     flex:1 1 40rem;
 }
@@ -203,7 +208,7 @@ header .follow a:hover{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 8rem;
 }
 
 .about .row-1 .image{
@@ -254,6 +259,7 @@ header .follow a:hover{
     flex-wrap: wrap;
     gap:1.5rem;
     align-items: center;
+    padding-bottom: 6rem;
 }
 
 .about .row-2 .skills{
@@ -330,6 +336,9 @@ header .follow a:hover{
     padding-top: .5rem;
 }
 
+#service{
+    padding-bottom: 8rem;
+}
 .service .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -379,8 +388,12 @@ header .follow a:hover{
     padding-top: .5rem;
 }
 
+#experience{
+    padding-bottom: 8rem;
+}
+
 .experience .box-container{
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
 }
 
@@ -389,7 +402,7 @@ header .follow a:hover{
     flex:1 1 33rem;
     border-left: .2rem solid var(--main-color);
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 14rem;
     padding-bottom: 2rem;    
 }
 
@@ -404,6 +417,7 @@ header .follow a:hover{
 }
 
 .experience .box-container .box .content{
+    height: 160px;
     background:#fff;
     padding:1.5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -429,6 +443,9 @@ header .follow a:hover{
     color:#666;
 }
 
+#portfolio{
+    padding-bottom: 8rem;
+}
 .portfolio .box-container{
     display: flex;
     flex-wrap: wrap;
